@@ -23,18 +23,17 @@
 ---
 
 ### Presentations
-[![IMAGE ALT TEXT](https://img.youtube.com/vi/XpNVixSN-Mg/0.jpg)]
 
-<img src="https://img.youtube.com/vi/XpNVixSN-Mg/0.jpg" width="100">
-
-
-- Data Science at Scale with R on GCP (Cloud Next '19)
+Data Science at Scale with R on GCP (Cloud Next '19)
 [![IMAGE ALT TEXT](https://img.youtube.com/vi/XpNVixSN-Mg/0.jpg)](https://www.youtube.com/watch?v=XpNVixSN-Mg "Data Science at Scale with R on GCP (Cloud Next '19)")
-- Machine Learning on Streaming Data using Kafka, Beam, and TensorFlow
+
+Machine Learning on Streaming Data using Kafka, Beam, and TensorFlow
 [![IMAGE ALT TEXT](https://cdn.vidyard.com/thumbnails/Xk4mTCGIRBAxFX6BKSGJJg/0237f6efc0ee69a356e06f.jpg)](https://videos.confluent.io/watch/xJADoLGgH145sD2zApjaXM "Machine Learning on Streaming Data using Kafka, Beam, and TensorFlow")
-- Cloud OnAir: CETV: Introducing Cloud TPU Pod
+
+Cloud OnAir: CETV: Introducing Cloud TPU Pod
 [![IMAGE ALT TEXT](https://img.youtube.com/vi/-G36qELTpfc/0.jpg)](https://www.youtube.com/watch?v=-G36qELTpfc "Cloud OnAir: CETV: Introducing Cloud TPU Pod")
-- Getting Started with Deep Learning Models in R using Google Cloud and RStudio (Cloud Next '18)
+
+Getting Started with Deep Learning Models in R using Google Cloud and RStudio (Cloud Next '18)
 [![IMAGE ALT TEXT](https://img.youtube.com/vi/y6vPAe9Z7QI/0.jpg)](https://www.youtube.com/watch?v=y6vPAe9Z7QI "Getting Started with Deep Learning Models in R using Google Cloud and RStudio (Cloud Next '18)")
 
 ---
