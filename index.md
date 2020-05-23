@@ -10,13 +10,12 @@
 - [Project 3 Title](http://example.com/)
 - [Project 4 Title](http://example.com/)
 - [Project 5 Title](http://example.com/)
+
 ---
 
 ### Presentations
 
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/XpNVixSN-Mg/0.jpg)](http://www.youtube.com/watch?v=XpNVixSN-Mg "Data Science at Scale with R on GCP (Cloud Next '19)")
-
-
 
 - [Project 1 Title](http://example.com/)
 - [Project 2 Title](http://example.com/)
