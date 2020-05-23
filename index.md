@@ -4,7 +4,7 @@
 
 ### Category Name 1
 
-[![IMAGE ALT TEXT](http://img.youtube.com/vi/XpNVixSN-Mg/0.jpg =100x20)](http://www.youtube.com/watch?v=XpNVixSN-Mg "Data Science at Scale with R on GCP (Cloud Next '19)")
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/XpNVixSN-Mg/0.jpg)](http://www.youtube.com/watch?v=XpNVixSN-Mg "Data Science at Scale with R on GCP (Cloud Next '19)")
 
 
 
