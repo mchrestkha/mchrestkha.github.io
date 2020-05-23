@@ -32,19 +32,6 @@
 
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/y6vPAe9Z7QI/0.jpg)](http://www.youtube.com/watch?v=y6vPAe9Z7QI "Getting Started with Deep Learning Models in R using Google Cloud and RStudio (Cloud Next '18)")
 
-
-
-
-
-
-
-
-- [Project 1 Title](http://example.com/)
-- [Project 2 Title](http://example.com/)
-- [Project 3 Title](http://example.com/)
-- [Project 4 Title](http://example.com/)
-- [Project 5 Title](http://example.com/)
-
 ---
 <p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
 <!-- Remove above link if you don't want to attibute -->
