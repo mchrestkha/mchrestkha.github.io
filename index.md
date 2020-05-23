@@ -24,8 +24,8 @@
 
 ### Presentations
 [![IMAGE ALT TEXT](https://img.youtube.com/vi/XpNVixSN-Mg/0.jpg)]
-[![IMAGE ALT TEXT](https://img.youtube.com/vi/XpNVixSN-Mg/0.jpg =100x20)]
-![](https://img.youtube.com/vi/XpNVixSN-Mg/0.jpg =100x20)
+[![IMAGE ALT TEXT](https://img.youtube.com/vi/XpNVixSN-Mg/0.jpg =200x)]
+![](https://img.youtube.com/vi/XpNVixSN-Mg/0.jpg =200x)
 
 
 
