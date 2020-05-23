@@ -2,7 +2,21 @@
 
 ---
 
-### Category Name 1 
+### Category Name 1
+
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/XpNVixSN-Mg/0.jpg)](http://www.youtube.com/watch?v=XpNVixSN-Mg "Video Title")
+
+
+
+- [Project 1 Title](http://example.com/)
+- [Project 2 Title](http://example.com/)
+- [Project 3 Title](http://example.com/)
+- [Project 4 Title](http://example.com/)
+- [Project 5 Title](http://example.com/)
+
+---
+
+### Category Name 2
 
 [Project 1 Title](/sample_page)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
@@ -17,7 +31,7 @@
 
 ---
 
-### Category Name 2
+### Category Name 3
 
 - [Project 1 Title](http://example.com/)
 - [Project 2 Title](http://example.com/)
