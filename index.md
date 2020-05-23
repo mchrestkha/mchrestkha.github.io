@@ -26,6 +26,9 @@
 
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/XpNVixSN-Mg/0.jpg)](http://www.youtube.com/watch?v=XpNVixSN-Mg "Data Science at Scale with R on GCP (Cloud Next '19)")
 
+[![IMAGE ALT TEXT](https://cdn.vidyard.com/thumbnails/Xk4mTCGIRBAxFX6BKSGJJg/0237f6efc0ee69a356e06f.jpg)](https://videos.confluent.io/watch/xJADoLGgH145sD2zApjaXM "Machine Learning on Streaming Data using Kafka, Beam, and TensorFlow")
+
+
 - [Project 1 Title](http://example.com/)
 - [Project 2 Title](http://example.com/)
 - [Project 3 Title](http://example.com/)
