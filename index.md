@@ -1,5 +1,3 @@
-## Portfolio
-
 ---
 
 ### Code Samples & Tutorials
