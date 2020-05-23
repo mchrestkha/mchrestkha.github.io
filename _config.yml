@@ -3,7 +3,9 @@ logo: "/images/round_profile.png?raw=true" # your photo (or logo) here
 description:  # your text below (remove <br> elements if you don't need line breaks)
   Data Science & Machine Learning
   <br><br>
-  Current focus areas include TensorFlow, XGBoost & SKLearn Solutions on Google Cloud
+  Current focus areas include Jupyter Notebook & MLOps solutions on Google Cloud with
+  TensorFlow, XGBoost, CatBoost, SKLearn, tidymodels (R), RAPIDS (GPUs), Spark, & Beam
+  <br><br>
   <a href="https://www.linkedin.com/in/mchrestkha/">LinkedIn</a>
   <a> | </a>
   <a href="https://twitter.com/mchrestkha">Twitter</a> 
