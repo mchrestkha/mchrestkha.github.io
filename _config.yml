@@ -1,6 +1,7 @@
-title: Mikhail Chrestkha # your name (or website title) here
+title: <center>Mikhail Chrestkha </center> # your name (or website title) here
 logo: "/images/round_profile.png?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
+  <center>
   Data Science & Machine Learning Solutions on Google Cloud
   <br><br>
   Basketball, Running, Live Music 
@@ -10,7 +11,7 @@ description: > # your text below (remove <br> elements if you don't need line br
   <a href="https://twitter.com/mchrestkha">Twitter</a> 
   <a> | </a>
   <a href="https://github.com/mchrestkha">GitHub</a> 
-
+  </center>
   
 theme: jekyll-theme-minimal
 google_analytics: UA-167468808-1 # your Google Analytics tracking ID here
