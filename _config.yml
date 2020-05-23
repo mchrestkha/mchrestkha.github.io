@@ -1,6 +1,6 @@
 title: <center>Mikhail Chrestkha </center> # your name (or website title) here
-logo: "/images/round_profile.png?raw=true" # your photo (or logo) here
-description: > # your text below (remove <br> elements if you don't need line breaks)
+logo: <center>"/images/round_profile.png?raw=true" </center> # your photo (or logo) here
+description:  # your text below (remove <br> elements if you don't need line breaks)
   <center>
   Data Science & Machine Learning Solutions on Google Cloud
   <br><br>
