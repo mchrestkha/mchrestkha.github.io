@@ -24,8 +24,8 @@
 
 ### Presentations
 [![IMAGE ALT TEXT](https://img.youtube.com/vi/XpNVixSN-Mg/0.jpg)]
-[![IMAGE ALT TEXT](https://img.youtube.com/vi/XpNVixSN-Mg/0.jpg =200x)]
-![](https://img.youtube.com/vi/XpNVixSN-Mg/0.jpg =100)
+
+<img src="https://img.youtube.com/vi/XpNVixSN-Mg/0.jpg" width="100">
 
 
 - Data Science at Scale with R on GCP (Cloud Next '19)
