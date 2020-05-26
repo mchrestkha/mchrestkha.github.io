@@ -13,8 +13,10 @@
 
 ### Blogs
 
+- [CatBoost on Google Cloud’s AI Platform w/ CPUs & GPUs
+](https://medium.com/@mchrestkha/catboost-on-google-clouds-ai-platform-w-cpus-gpus-130e4407e132?source=friends_link&sk=95579b7ba4a447e581d6981c715b01d1)
 - [Announcing the beta release of SparkR job types in Cloud Dataproc](https://cloud.google.com/blog/products/ai-machine-learning/announcing-the-beta-release-of-sparkr-job-types-in-cloud-dataproc)
-- [Project 2 Title](https://example.com/)
+
 - [Project 3 Title](https://example.com/)
 - [Project 4 Title](https://example.com/)
 - [Project 5 Title](https://example.com/)
