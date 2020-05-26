@@ -3,7 +3,7 @@
 
 ### Code Samples & Tutorials
 
-- [2020/05/25: XGBoost & CatBoost on Google Cloud's AI Platform Training Service]
+- [2020/05/25: XGBoost & CatBoost on Google Cloud's AI Platform Training Service](https://github.com/mchrestkha/machine_learning_examples/tree/master/census)
 
 ---
 
