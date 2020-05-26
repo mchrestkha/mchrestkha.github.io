@@ -3,11 +3,7 @@
 
 ### Code Samples & Tutorials
 
-- [2020/05/25: XGBoost & CatBoost on Google Cloud's AI Platform Training Service](https://github.com/mchrestkha/machine_learning_examples/tree/master/census)
-- [Project 2 Title](https://example.com/)
-- [Project 3 Title](https://example.com/)
-- [Project 4 Title](https://example.com/)
-- [Project 5 Title](https://example.com/)
+- [2020/05/25: XGBoost & CatBoost on Google Cloud's AI Platform Training Service]
 
 ---
 
@@ -16,9 +12,6 @@
 - [2020/05/25: CatBoost on Google Cloud’s AI Platform w/ CPUs & GPUs
 ](https://medium.com/@mchrestkha/catboost-on-google-clouds-ai-platform-w-cpus-gpus-130e4407e132?source=friends_link&sk=95579b7ba4a447e581d6981c715b01d1)
 - [2018/12/19: Announcing the beta release of SparkR job types in Cloud Dataproc](https://cloud.google.com/blog/products/ai-machine-learning/announcing-the-beta-release-of-sparkr-job-types-in-cloud-dataproc)
-- [Project 3 Title](https://example.com/)
-- [Project 4 Title](https://example.com/)
-- [Project 5 Title](https://example.com/)
 
 ---
 
