@@ -3,7 +3,7 @@
 
 ### Code Samples & Tutorials
 
-- [Project 1 Title](https://example.com/)
+- [XGBoost & CatBoost on Google Cloud's AI Platform Training Service](https://github.com/mchrestkha/machine_learning_examples/tree/master/census)
 - [Project 2 Title](https://example.com/)
 - [Project 3 Title](https://example.com/)
 - [Project 4 Title](https://example.com/)
