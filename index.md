@@ -18,7 +18,7 @@
 ### Presentations
 
 2020/07/16: Accelerate Spark 3.0 with Google Cloud Dataproc and NVIDIA GPUs
-[![IMAGE ALT TEXT](https://media-exp1.licdn.com/dms/image/C562DAQEkecxijdKjaQ/profile-treasury-image-shrink_1280_1280/0?e=1597392000&v=beta&t=1IzIlOPdY70Qd3VjkJ2pWWFeX3XwjVVQ0OJvWlRZPeg)](https://info.nvidia.com/accelerate-spark-3-with-gcp-and-nvidia-gpus-reg-page.html "Accelerate Spark 3.0 with Google Cloud Dataproc and NVIDIA GPUs
+[![IMAGE ALT TEXT](https://raw.githubusercontent.com/mchrestkha/mchrestkha.github.io/master/images/dataproc_nvidia_webinar.jpeg)](https://info.nvidia.com/accelerate-spark-3-with-gcp-and-nvidia-gpus-reg-page.html "Accelerate Spark 3.0 with Google Cloud Dataproc and NVIDIA GPUs
 ")
 
 2019/04/10: Data Science at Scale with R on GCP (Cloud Next '19)
