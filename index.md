@@ -1,8 +1,8 @@
 ### Presentations
 
 - 2020/10/04: Lightweight yet scalable TensorFlow workflow on Google Cloud [[Blog]](https://medium.com/@mchrestkha/lightweight-yet-scalable-tensorflow-workflow-on-google-cloud-b32e0ba410c6?source=friends_link&sk=2d170d715cb2540090e1dff87fa4bb5e) [[Code Samples]](https://github.com/mchrestkha/machine_learning_examples/tree/master/catsdogs/tensorflow)
-- 2020/08/24: Cost-Benefit of GPUs for Data and Machine Learning [[Blog]] (https://medium.com/@mchrestkha/cost-benefit-of-gpus-for-data-and-machine-learning-f7ce86e5a20f?source=friends_link&sk=aa03a4ac438b3f279133423d5862ede2) 
-- 2020/05/25: CatBoost on Google Cloud’s AI Platform w/ CPUs & GPUs [[Blog]] (https://medium.com/@mchrestkha/catboost-on-google-clouds-ai-platform-w-cpus-gpus-130e4407e132?source=friends_link&sk=95579b7ba4a447e581d6981c715b01d1) [[Code Samples]](https://github.com/mchrestkha/machine_learning_examples/tree/master/census)
+- 2020/08/24: Cost-Benefit of GPUs for Data and Machine Learning [[Blog]](https://medium.com/@mchrestkha/cost-benefit-of-gpus-for-data-and-machine-learning-f7ce86e5a20f?source=friends_link&sk=aa03a4ac438b3f279133423d5862ede2) 
+- 2020/05/25: CatBoost on Google Cloud’s AI Platform w/ CPUs & GPUs [[Blog]](https://medium.com/@mchrestkha/catboost-on-google-clouds-ai-platform-w-cpus-gpus-130e4407e132?source=friends_link&sk=95579b7ba4a447e581d6981c715b01d1) [[Code Samples]](https://github.com/mchrestkha/machine_learning_examples/tree/master/census)
 - 2020/07/16: Accelerate Spark 3.0 with Google Cloud Dataproc and NVIDIA GPUs
 [![IMAGE ALT TEXT](https://raw.githubusercontent.com/mchrestkha/mchrestkha.github.io/master/images/dataproc_nvidia_webinar.jpeg)](https://info.nvidia.com/accelerate-spark-3-with-gcp-and-nvidia-gpus-reg-page.html "Accelerate Spark 3.0 with Google Cloud Dataproc and NVIDIA GPUs
 ")
