@@ -17,9 +17,9 @@
 
 [comment]: <> (https://raw.githubusercontent.com/mchrestkha/mchrestkha.github.io/master/images/dataproc_nvidia_webinar.jpeg)
 [comment]: <> (https://img.youtube.com/vi/XpNVixSN-Mg/0.jpg)
-[comment]: <> ([![IMAGE ALT TEXT](https://cdn.vidyard.com/thumbnails/Xk4mTCGIRBAxFX6BKSGJJg/0237f6efc0ee69a356e06f.jpg)])
-[comment]: <> ([![IMAGE ALT TEXT](https://img.youtube.com/vi/y6vPAe9Z7QI/0.jpg)])
-[comment]: <> ([![IMAGE ALT TEXT](https://img.youtube.com/vi/-G36qELTpfc/0.jpg)])
+[comment]: <> (https://cdn.vidyard.com/thumbnails/Xk4mTCGIRBAxFX6BKSGJJg/0237f6efc0ee69a356e06f.jpg)
+[comment]: <> (https://img.youtube.com/vi/y6vPAe9Z7QI/0.jpg)
+[comment]: <> (https://img.youtube.com/vi/-G36qELTpfc/0.jpg)
 
 ---
 <p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
