@@ -15,8 +15,8 @@
 - 2018/07/25: Getting Started with Deep Learning Models in R using Google Cloud and RStudio (Cloud Next '18) [[Video]](https://www.youtube.com/watch?v=y6vPAe9Z7QI "Getting Started with Deep Learning Models in R using Google Cloud and RStudio (Cloud Next '18)")
 
 
-[comment]: <> ([![IMAGE ALT TEXT](https://raw.githubusercontent.com/mchrestkha/mchrestkha.github.io/master/images/dataproc_nvidia_webinar.jpeg)])
-[comment]: <> ([![IMAGE ALT TEXT](https://img.youtube.com/vi/XpNVixSN-Mg/0.jpg)])
+[comment]: <> (https://raw.githubusercontent.com/mchrestkha/mchrestkha.github.io/master/images/dataproc_nvidia_webinar.jpeg)
+[comment]: <> (https://img.youtube.com/vi/XpNVixSN-Mg/0.jpg)
 [comment]: <> ([![IMAGE ALT TEXT](https://cdn.vidyard.com/thumbnails/Xk4mTCGIRBAxFX6BKSGJJg/0237f6efc0ee69a356e06f.jpg)])
 [comment]: <> ([![IMAGE ALT TEXT](https://img.youtube.com/vi/y6vPAe9Z7QI/0.jpg)])
 [comment]: <> ([![IMAGE ALT TEXT](https://img.youtube.com/vi/-G36qELTpfc/0.jpg)])
