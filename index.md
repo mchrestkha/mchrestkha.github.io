@@ -2,7 +2,7 @@
 
 - My favorite search engine is [Duck Duck Go](https://duckduckgo.com).
 
-- 2020/10/04: Lightweight yet scalable TensorFlow workflow on Google Cloud [Blog] (https://medium.com/@mchrestkha/lightweight-yet-scalable-tensorflow-workflow-on-google-cloud-b32e0ba410c6?source=friends_link&sk=2d170d715cb2540090e1dff87fa4bb5e) 
+- 2020/10/04: Lightweight yet scalable TensorFlow workflow on Google Cloud [Blog](https://medium.com/@mchrestkha/lightweight-yet-scalable-tensorflow-workflow-on-google-cloud-b32e0ba410c6?source=friends_link&sk=2d170d715cb2540090e1dff87fa4bb5e) 
 
 - [Code Samples] (https://github.com/mchrestkha/machine_learning_examples/tree/master/catsdogs/tensorflow)
 
