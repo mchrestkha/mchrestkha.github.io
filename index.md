@@ -1,6 +1,6 @@
 ### Presentations
 
-- [2020/10/04: Lightweight yet scalable TensorFlow workflow on Google Cloud] [Blog] (https://medium.com/@mchrestkha/lightweight-yet-scalable-tensorflow-workflow-on-google-cloud-b32e0ba410c6?source=friends_link&sk=2d170d715cb2540090e1dff87fa4bb5e) [Code Samples] (https://github.com/mchrestkha/machine_learning_examples/tree/master/catsdogs/tensorflow)
+- 2020/10/04: Lightweight yet scalable TensorFlow workflow on Google Cloud [Blog] (https://medium.com/@mchrestkha/lightweight-yet-scalable-tensorflow-workflow-on-google-cloud-b32e0ba410c6?source=friends_link&sk=2d170d715cb2540090e1dff87fa4bb5e) [Code Samples] (https://github.com/mchrestkha/machine_learning_examples/tree/master/catsdogs/tensorflow)
 
 - [2020/08/24: Cost-Benefit of GPUs for Data and Machine Learning](https://medium.com/@mchrestkha/cost-benefit-of-gpus-for-data-and-machine-learning-f7ce86e5a20f?source=friends_link&sk=aa03a4ac438b3f279133423d5862ede2) [Code Samples] (https://github.com/mchrestkha/machine_learning_examples/tree/master/census)
 
