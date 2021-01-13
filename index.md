@@ -29,8 +29,8 @@
 [comment]: <> (https://img.youtube.com/vi/-G36qELTpfc/0.jpg)
 
  
-### 2010-207
-- Nada
+### 2010-2017
+- Nada / nothing / the void
 - Yes, it took me 9 years into my career to start generating content! Don't wait that long! Follow Rachel Thomas' great advice regarding [[Why you (yes, you) should blog]](https://medium.com/@racheltho/why-you-yes-you-should-blog-7d2544ac1045)
  
   
