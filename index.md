@@ -37,7 +37,7 @@
   
 
 ### 2009
-- 2009/07/27: Crew Scheduling for the Freight Railroad Industry [[Article]](https://www.orie.cornell.edu/news/outstanding-master-engineering-projects-win-silent-hoist-and-crane-materials-handling-prizes) [[Project Summary]](https://drive.google.com/file/d/0Bx7SoDjWBsbNMjdjNzM0NGUtODQwNS00YzI0LTg1NTMtNDkwMjFiNWQ1YjNl/view?usp=sharing)
+- 2009/07/27: Crew Scheduling for the Freight Railroad Industry [[Project Summary]](https://drive.google.com/file/d/0Bx7SoDjWBsbNMjdjNzM0NGUtODQwNS00YzI0LTg1NTMtNDkwMjFiNWQ1YjNl/view?usp=sharing) [[Article]](https://www.orie.cornell.edu/news/outstanding-master-engineering-projects-win-silent-hoist-and-crane-materials-handling-prizes) 
 
 ---
 <p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
