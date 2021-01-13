@@ -31,7 +31,7 @@
  
 ### 2010-2017
 - Nada / nothing / the void
-- Yes, it took me 9 years into my career to start creating external content. Don't wait that long! Follow Rachel Thomas' great advice regarding ['Why you (yes, you) should blog'](https://medium.com/@racheltho/why-you-yes-you-should-blog-7d2544ac1045).  Even 1 or 2 pieces of content a year adds up quickly throughout your career and can have a big impact on your writing & knowledge organization skills, meeting new people, and job/conference/meetup opportunities.  Here's another great post from Rachel on [how to write better blog posts and articles.](https://www.fast.ai/2019/05/13/blogging-advice/)
+- Yes, it took me 9 years into my career to start creating external content. Don't wait that long! Follow Rachel Thomas' great advice regarding ['Why you (yes, you) should blog'](https://medium.com/@racheltho/why-you-yes-you-should-blog-7d2544ac1045). Even 1 or 2 pieces of content a year adds up quickly throughout your career and can have a big impact on your writing & knowledge organization skills, meeting new people, and job/conference/meetup opportunities.  Here's another great post from Rachel on [how to write better blog posts and articles.](https://www.fast.ai/2019/05/13/blogging-advice/)
  
   
   
