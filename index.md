@@ -29,7 +29,7 @@
 [comment]: <> (https://img.youtube.com/vi/-G36qELTpfc/0.jpg)
 
 ...
-Yes, it took me 9 years to start putting up content! Don't wait that long! [[Follow Rachel Thomas' great adviceHERE]](https://medium.com/@racheltho/why-you-yes-you-should-blog-7d2544ac1045)
+Yes, it took me 9 years to start putting up content! Don't wait that long! Follow Rachel Thomas' great advice regarding [[Why you (yes, you) should blog]](https://medium.com/@racheltho/why-you-yes-you-should-blog-7d2544ac1045)
 ...
 
 ### 2009
