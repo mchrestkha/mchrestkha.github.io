@@ -29,7 +29,8 @@
 [comment]: <> (https://img.youtube.com/vi/-G36qELTpfc/0.jpg)
 
  
-### 2010-2017 Nada / nothing / the void
+### 2010-2017
+- Nada / nothing / the void
 - Yes, it took me 9 years into my career to start creating external content. Don't wait that long! Follow Rachel Thomas' great advice regarding ['Why you (yes, you) should blog'](https://medium.com/@racheltho/why-you-yes-you-should-blog-7d2544ac1045).  Even 1 or 2 pieces of content a year adds up quickly throughout your career and can have a big impact on your writing skills, meeting new people, and job/conference/meetup opportunities.
  
   
