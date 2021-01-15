@@ -30,12 +30,6 @@
 [comment]: <> (https://img.youtube.com/vi/y6vPAe9Z7QI/0.jpg)
 [comment]: <> (https://img.youtube.com/vi/-G36qELTpfc/0.jpg)
 
- 
-### 2010-2017
-- Nada / nothing / the void
-- It took 9 years into my career to start creating and sharing external content. Don't wait that long! Follow Rachel Thomas's great advice regarding ['Why you (yes, you) should blog'](https://medium.com/@racheltho/why-you-yes-you-should-blog-7d2544ac1045). Even 1 or 2 pieces of content a year adds up quickly throughout your career and can have a big impact on your writing & knowledge organization skills, meeting new people, and job/conference/meetup opportunities.  Here's another great post from Rachel on [how to write better blog posts and articles.](https://www.fast.ai/2019/05/13/blogging-advice/)
- 
-
 ### 2009
 - 2009/07/27: Crew Scheduling for the Freight Railroad Industry [[Project Summary]](https://drive.google.com/file/d/0Bx7SoDjWBsbNMjdjNzM0NGUtODQwNS00YzI0LTg1NTMtNDkwMjFiNWQ1YjNl/view?usp=sharing) [[Article]](https://www.orie.cornell.edu/news/outstanding-master-engineering-projects-win-silent-hoist-and-crane-materials-handling-prizes) 
 
