@@ -6,7 +6,7 @@ Inspired to create this site and start sharing content after reading Rachel Thom
 <br>
 
 ### 2021
-- 2021/11/09: NVIDIA NGC & Vertex AI on Google Cloud [[Video]](https://events.rainfocus.com/widget/nvidia/nvidiagtc/sessioncatalog/session/1631923556516001KEgh) 
+- 2021/11/09: NVIDIA NGC & Vertex AI on Google Cloud [[Session]](https://raw.githubusercontent.com/mchrestkha/mchrestkha.github.io/master/images/A31680%20-%20NGC%20Vertex%20AI%20Session%20(1).jpg) 
 - 2021/01/13: An Accelerated Big Data Workflow for the Data Analyst [[Blog]](https://mchrestkha.medium.com/an-accelerated-big-data-workflow-for-the-data-analyst-5921c9fda866) [[Code Samples]](https://github.com/mchrestkha/machine_learning_examples/tree/master/fannie_mae_loans/rapids_xgboost/notebooks)
 
 ### 2020
