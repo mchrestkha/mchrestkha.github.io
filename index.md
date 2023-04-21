@@ -6,6 +6,10 @@ Inspired to create this site and start sharing content after reading Rachel Thom
 <br>
 
 ### 2022
+- 2023/04/19: Optimize for AI innovation [[Video]](https://youtu.be/Xg5ZC0Zgm4c) 
+
+
+### 2022
 - 2022/10/11: AI Infrastructure: Accelerating ML development with optimized performance and cost [[Video]](https://youtu.be/8Dph6ki1TJc) 
 - 2022/04/02: How airlines forecast demand with FLYR and Google Cloud [[Video]](https://youtu.be/zVAF258K7LE) 
 
