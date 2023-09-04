@@ -3,11 +3,11 @@ Inspired to create this site and start sharing content after reading Rachel Thom
 ### 2023
 - 2023/08/30: Building your MLOps strategy for generative AI [[Video]](https://youtu.be/UfUoG_Ijgq4?feature=shared) [[Slides]](https://assets.swoogo.com/uploads/2862320-64f243ebd9fab.pdf) 
 - 2023/06/14: How Palo Alto Networks and AI21 Labs innovate with AI infrastructure from Google Cloud [[Blog]](https://cloud.google.com/blog/topics/partners/palo-alto-and-ai21-labs-use-google-cloud-ai-infrastructure)
-- 2023/04/19: Optimize for AI innovation [[Video]](https://youtu.be/Xg5ZC0Zgm4c) 
+- 2023/04/19: Optimize for AI innovation (with Palo Alto Networks & AI21 Labs) [[Video]](https://youtu.be/Xg5ZC0Zgm4c) 
 
 
 ### 2022
-- 2022/10/11: AI Infrastructure: Accelerating ML development with optimized performance and cost [[Video]](https://youtu.be/8Dph6ki1TJc) 
+- 2022/10/11: AI Infrastructure: Accelerating ML development with optimized performance and cost (with Uber & Cohere) [[Video]](https://youtu.be/8Dph6ki1TJc) 
 - 2022/04/02: How airlines forecast demand with FLYR and Google Cloud [[Video]](https://youtu.be/zVAF258K7LE) 
 
 ### 2021
