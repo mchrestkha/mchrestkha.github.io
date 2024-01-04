@@ -1,5 +1,9 @@
 Inspired to create this site and start sharing content after reading Rachel Thomas's blog ['Why you (yes, you) should blog'](https://medium.com/@racheltho/why-you-yes-you-should-blog-7d2544ac1045)
 
+
+### 2024
+- 2024/01/03: Level Up Your AI Strategy: From Models to Applications and Beyond [[Blog]](https://mchrestkha.medium.com/level-up-your-ai-strategy-from-models-to-applications-and-beyond-ee9a16322235)
+
 ### 2023
 - 2023/12/13: Prompt tracking and observability with Vertex AI (with Weights & Biases) [[Video]](https://youtu.be/lDGtKfO3MmU?si=bM_4iYmKEoWvlEE2)
 - 2023/08/30: Building your MLOps strategy for generative AI [[Video]](https://youtu.be/UfUoG_Ijgq4?feature=shared) [[Slides]](https://assets.swoogo.com/uploads/2862320-64f243ebd9fab.pdf) 
