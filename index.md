@@ -2,6 +2,7 @@ Inspired to create this site and start sharing content after reading Rachel Thom
 
 
 ### 2024
+- 2024/02/06: What's new with Generative AI (on Vertex AI) [[Video]]([https://youtu.be/8Dph6ki1TJc](https://youtu.be/1JYKVQFhMoI?si=RxcEE6tB_LtT_Q5_&t=780)) 
 - 2024/01/03: Level Up Your AI Strategy: From Models to Applications and Beyond [[Blog]](https://mchrestkha.medium.com/level-up-your-ai-strategy-from-models-to-applications-and-beyond-ee9a16322235)
 
 ### 2023
