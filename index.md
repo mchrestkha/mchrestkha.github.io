@@ -2,6 +2,7 @@ Inspired to create this site and start sharing content after reading Rachel Thom
 
 
 ### 2024
+- 2024/09/26: Vision to Value: Generative AI Breakfast Briefing (with Datatonic, Vodafone & Kingfisher) [[Session Abstract]]([https://youtu.be/feoihiNdmOY?si=74ERucdNENjD4C2y](https://github.com/mchrestkha/mchrestkha.github.io/blob/master/images/datatonic_breakfast_briefing.png)) 
 - 2024/04/11: Operationalizing generative AI on Vertex AI (with Credit Karma & Wayfair) [[Video]](https://youtu.be/feoihiNdmOY?si=74ERucdNENjD4C2y)  [[Slides]](https://assets.swoogo.com/uploads/3815598-661fde4fe2695.pdf)
 - 2024/02/06: What's new with Generative AI (on Vertex AI) [[Video]](https://youtu.be/1JYKVQFhMoI?si=RxcEE6tB_LtT_Q5_&t=780)
 - 2024/01/03: Level Up Your AI Strategy: From Models to Applications and Beyond [[Blog]](https://mchrestkha.medium.com/level-up-your-ai-strategy-from-models-to-applications-and-beyond-ee9a16322235)
