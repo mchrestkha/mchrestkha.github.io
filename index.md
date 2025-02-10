@@ -1,5 +1,8 @@
 Inspired to create this site and start sharing content after reading Rachel Thomas's blog ['Why you (yes, you) should blog'](https://medium.com/@racheltho/why-you-yes-you-should-blog-7d2544ac1045)
 
+### 2025
+- 2025/02/05: Hundreds of organizations are fine-tuning Gemini models. Here's their favorite use cases. [[Blog]](https://cloud.google.com/transform/top-five-gen-ai-tuning-use-cases-gemini-hundreds-of-orgs?e=48754805)
+
 
 ### 2024
 - 2024/12/03: Unlocking the potential of MLOps & LLMOps (with Weights & Biases) [[Video]](https://www.youtube.com/watch?v=7hxec4M48XY)
