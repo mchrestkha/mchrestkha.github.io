@@ -1,7 +1,7 @@
 Inspired to create this site and start sharing content after reading Rachel Thomas's blog ['Why you (yes, you) should blog'](https://medium.com/@racheltho/why-you-yes-you-should-blog-7d2544ac1045)
 
 ### 2025
-- 2025/06/12: Bridging the AI Deployment Gap: Taking From Prototype to Production [[Session]] (https://raw.githubusercontent.com/mchrestkha/mchrestkha.github.io/master/images/london_ai_summit_2025.png) 
+- 2025/06/12: Bridging the AI Deployment Gap: Taking From Prototype to Production [[Session]](https://raw.githubusercontent.com/mchrestkha/mchrestkha.github.io/master/images/london_ai_summit_2025.png) 
 - 2025/03/04: Driving Profitability with AI [[Video]](https://www.youtube.com/watch?v=lHE5al8Fp78)
 - 2025/02/05: Hundreds of organizations are fine-tuning Gemini models. Here's their favorite use cases. [[Blog]](https://cloud.google.com/transform/top-five-gen-ai-tuning-use-cases-gemini-hundreds-of-orgs?e=48754805)
 
