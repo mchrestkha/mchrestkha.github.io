@@ -1,0 +1,182 @@
+# Talks, writing and sessions, newest first.
+#
+# To add an entry, copy the shape below. `date` is ISO (YYYY-MM-DD) and drives
+# both the displayed date and the year grouping, so the list stays sorted by
+# construction rather than by hand. `note` is the parenthetical context line
+# (co-presenters, the event); omit it when there is none. Each link needs a
+# `label` and a `url`; the label is what the chip reads.
+
+- date: 2025-06-12
+  title: "Bridging the AI Deployment Gap: Taking From Prototype to Production"
+  note: "with Weights & Biases"
+  links:
+    - label: Session
+      url: /images/london_ai_summit_2025.png
+    - label: Site
+      url: https://london.theaisummit.com/the-ai-summit-london-2025/bridging-ai-deployment-gap-taking-prototype-production-invite
+
+- date: 2025-03-04
+  title: "Driving Profitability with AI"
+  links:
+    - label: Video
+      url: https://www.youtube.com/watch?v=lHE5al8Fp78
+
+- date: 2025-02-05
+  title: "Hundreds of organizations are fine-tuning Gemini models. Here's their favorite use cases."
+  links:
+    - label: Blog
+      url: https://cloud.google.com/transform/top-five-gen-ai-tuning-use-cases-gemini-hundreds-of-orgs?e=48754805
+
+- date: 2024-12-03
+  title: "Unlocking the potential of MLOps & LLMOps"
+  note: "with Weights & Biases"
+  links:
+    - label: Video
+      url: https://www.youtube.com/watch?v=7hxec4M48XY
+
+- date: 2024-09-26
+  title: "Vision to Value: Generative AI Breakfast Briefing"
+  note: "with Datatonic, Vodafone & Kingfisher"
+  links:
+    - label: Session abstract
+      url: /images/datatonic_breakfast_briefing.jpg
+
+- date: 2024-04-11
+  title: "Operationalizing generative AI on Vertex AI"
+  note: "with Credit Karma & Wayfair"
+  links:
+    - label: Video
+      url: https://youtu.be/feoihiNdmOY?si=74ERucdNENjD4C2y
+    - label: Slides
+      url: https://assets.swoogo.com/uploads/3815598-661fde4fe2695.pdf
+
+- date: 2024-02-06
+  title: "What's new with Generative AI (on Vertex AI)"
+  links:
+    - label: Video
+      url: https://youtu.be/1JYKVQFhMoI?si=RxcEE6tB_LtT_Q5_&t=780
+
+- date: 2024-01-03
+  title: "Level Up Your AI Strategy: From Models to Applications and Beyond"
+  links:
+    - label: Blog
+      url: https://mchrestkha.medium.com/level-up-your-ai-strategy-from-models-to-applications-and-beyond-ee9a16322235
+
+- date: 2023-12-13
+  title: "Prompt tracking and observability with Vertex AI"
+  note: "with Weights & Biases"
+  links:
+    - label: Video
+      url: https://youtu.be/lDGtKfO3MmU?si=bM_4iYmKEoWvlEE2
+
+- date: 2023-08-30
+  title: "Building your MLOps strategy for generative AI"
+  links:
+    - label: Video
+      url: https://youtu.be/UfUoG_Ijgq4?feature=shared
+    - label: Slides
+      url: https://assets.swoogo.com/uploads/2862320-64f243ebd9fab.pdf
+
+- date: 2023-04-19
+  title: "Optimize for AI innovation"
+  note: "with Palo Alto Networks & AI21 Labs"
+  links:
+    - label: Video
+      url: https://youtu.be/Xg5ZC0Zgm4c
+    - label: Blog
+      url: https://cloud.google.com/blog/topics/partners/palo-alto-and-ai21-labs-use-google-cloud-ai-infrastructure
+
+- date: 2022-10-11
+  title: "AI Infrastructure: Accelerating ML development with optimized performance and cost"
+  note: "with Uber & Cohere"
+  links:
+    - label: Video
+      url: https://youtu.be/8Dph6ki1TJc
+
+- date: 2022-04-02
+  title: "How airlines forecast demand with FLYR and Google Cloud"
+  links:
+    - label: Video
+      url: https://youtu.be/zVAF258K7LE
+
+- date: 2021-11-09
+  title: "NVIDIA NGC & Vertex AI on Google Cloud"
+  links:
+    - label: Session
+      url: /images/nvidia-ngc-vertex-ai-session-2021.jpg
+
+- date: 2021-01-13
+  title: "An Accelerated Big Data Workflow for the Data Analyst"
+  links:
+    - label: Blog
+      url: https://mchrestkha.medium.com/an-accelerated-big-data-workflow-for-the-data-analyst-5921c9fda866
+    - label: Code samples
+      url: https://github.com/mchrestkha/machine_learning_examples/tree/master/fannie_mae_loans/rapids_xgboost/notebooks
+
+- date: 2020-10-04
+  title: "Lightweight yet scalable TensorFlow workflow on Google Cloud"
+  links:
+    - label: Blog
+      url: https://medium.com/@mchrestkha/lightweight-yet-scalable-tensorflow-workflow-on-google-cloud-b32e0ba410c6?source=friends_link&sk=2d170d715cb2540090e1dff87fa4bb5e
+    - label: Code samples
+      url: https://github.com/mchrestkha/machine_learning_examples/tree/master/catsdogs/tensorflow
+
+- date: 2020-08-24
+  title: "Cost-Benefit of GPUs for Data and Machine Learning"
+  links:
+    - label: Blog
+      url: https://medium.com/@mchrestkha/cost-benefit-of-gpus-for-data-and-machine-learning-f7ce86e5a20f?source=friends_link&sk=aa03a4ac438b3f279133423d5862ede2
+
+- date: 2020-07-16
+  title: "Accelerate Spark 3.0 with Google Cloud Dataproc and NVIDIA GPUs"
+  links:
+    - label: Video
+      url: https://info.nvidia.com/accelerate-spark-3-with-gcp-and-nvidia-gpus-reg-page.html
+
+- date: 2020-05-25
+  title: "CatBoost on Google Cloud's AI Platform w/ CPUs & GPUs"
+  links:
+    - label: Blog
+      url: https://medium.com/@mchrestkha/catboost-on-google-clouds-ai-platform-w-cpus-gpus-130e4407e132?source=friends_link&sk=95579b7ba4a447e581d6981c715b01d1
+    - label: Code samples
+      url: https://github.com/mchrestkha/machine_learning_examples/tree/master/census
+
+- date: 2019-04-10
+  title: "Data Science at Scale with R on GCP"
+  note: "Cloud Next '19"
+  links:
+    - label: Video
+      url: https://www.youtube.com/watch?v=XpNVixSN-Mg
+
+- date: 2019-04-02
+  title: "Machine Learning on Streaming Data using Kafka, Beam, and TensorFlow"
+  links:
+    - label: Video
+      url: https://videos.confluent.io/watch/xJADoLGgH145sD2zApjaXM
+
+- date: 2018-12-19
+  title: "Announcing the beta release of SparkR job types in Cloud Dataproc"
+  links:
+    - label: Blog
+      url: https://cloud.google.com/blog/products/ai-machine-learning/announcing-the-beta-release-of-sparkr-job-types-in-cloud-dataproc
+
+- date: 2018-11-27
+  title: "Cloud OnAir: CETV: Introducing Cloud TPU Pod"
+  links:
+    - label: Video
+      url: https://www.youtube.com/watch?v=-G36qELTpfc
+
+- date: 2018-07-25
+  title: "Getting Started with Deep Learning Models in R using Google Cloud and RStudio"
+  note: "Cloud Next '18"
+  links:
+    - label: Video
+      url: https://www.youtube.com/watch?v=y6vPAe9Z7QI
+
+- date: 2009-07-27
+  title: "Crew Scheduling for the Freight Railroad Industry"
+  links:
+    - label: Project summary
+      url: https://drive.google.com/file/d/0Bx7SoDjWBsbNMjdjNzM0NGUtODQwNS00YzI0LTg1NTMtNDkwMjFiNWQ1YjNl/view?usp=sharing
+    - label: Article
+      url: https://www.orie.cornell.edu/news/outstanding-master-engineering-projects-win-silent-hoist-and-crane-materials-handling-prizes

@@ -1,15 +1,45 @@
-title: Mikhail Chrestkha # your name (or website title) here
-logo: "/images/photo_circle.png?raw=true" # your photo (or logo) here
-description:  # your text below (remove <br> elements if you don't need line breaks)
-  <center>
-  <b>AI Infrastructure & AI Platforms</b>
-  <br>
-  <a href="https://www.linkedin.com/in/mchrestkha/">LinkedIn</a>
-  <a> | </a>
-  <a href="https://github.com/mchrestkha">GitHub</a>   
-   <a> | </a>
-  <a href="https://medium.com/@mchrestkha">Medium</a> 
-  <br><br>
-  </center> 
-theme: jekyll-theme-minimal
-google_analytics: UA-167468808-1 # your Google Analytics tracking ID here
+title: Mikhail Chrestkha
+tagline: AI Infrastructure & AI Platforms
+description: >-
+  Mikhail Chrestkha on AI infrastructure and AI platforms — talks, writing, and
+  things I have built about getting models from prototype into production.
+url: https://mchrestkha.github.io
+lang: en-US
+
+author:
+  name: Mikhail Chrestkha
+
+# Rendered in the masthead, in this order.
+social_links:
+  - name: LinkedIn
+    url: https://www.linkedin.com/in/mchrestkha/
+  - name: GitHub
+    url: https://github.com/mchrestkha
+  - name: Medium
+    url: https://medium.com/@mchrestkha
+
+footer_note: >-
+  Started after reading Rachel Thomas's
+  <a href="https://medium.com/@racheltho/why-you-yes-you-should-blog-7d2544ac1045">Why
+  you (yes, you) should blog</a>.
+
+# Both are on the GitHub Pages allowlist. Listing them explicitly means the SEO
+# and sitemap output does not depend on a theme gem's dependencies being
+# auto-loaded — the site carries no theme gem at all.
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Analytics: the previous UA- property stopped collecting data when Universal
+# Analytics shut down in July 2023, so the snippet was removed rather than left
+# in place looking like it worked. To add GA4, put the G- id here and add the
+# gtag.js snippet to _layouts/default.html — the UA snippet does not work with
+# a G- id.
+# google_analytics:
+
+exclude:
+  - README.md
+  - LICENSE
+  - Gemfile
+  - Gemfile.lock
+  - vendor

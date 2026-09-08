@@ -1,0 +1,48 @@
+---
+layout: default
+---
+
+<div class="intro">
+  {{ content }}
+</div>
+
+{% if site.data.apps and site.data.apps.size > 0 %}
+<section id="apps">
+  <h2>My apps</h2>
+  <div class="apps">
+    {% for app in site.data.apps %}
+      <article class="app">
+        <h3><a href="{{ app.url }}">{{ app.name }}</a></h3>
+        {% if app.tagline %}<p class="tagline">{{ app.tagline }}</p>{% endif %}
+        <p>{{ app.description }}</p>
+      </article>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}
+
+<section id="talks">
+  <h2>Talks &amp; writing</h2>
+  {% assign groups = site.data.entries | group_by_exp: "e", "e.date | date: '%Y'" | sort: "name" | reverse %}
+  {% for group in groups %}
+    <div class="year">
+      <h3>{{ group.name }}</h3>
+      <ul class="entries">
+        {% for entry in group.items %}
+          <li class="entry">
+            <time datetime="{{ entry.date | date: '%Y-%m-%d' }}">{{ entry.date | date: '%b %-d' }}</time>
+            <div>
+              <p class="entry-title">{{ entry.title }}</p>
+              {% if entry.note %}<p class="entry-note">{{ entry.note }}</p>{% endif %}
+              <div class="entry-links">
+                {% for link in entry.links %}
+                  <a href="{{ link.url | relative_url }}">{{ link.label }}</a>
+                {% endfor %}
+              </div>
+            </div>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  {% endfor %}
+</section>
