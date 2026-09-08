@@ -9,11 +9,14 @@
     <style>
       /* ---------------------------------------------------------------
          Tokens. Nothing below this block invents a colour, size or space
-         value. Both palettes are contrast-checked: body text clears
-         WCAG AAA (7:1), muted text and links clear AA (4.5:1).
+         value. There is one theme and it is light: a second theme means
+         every colour decision has to be made and validated twice, and the
+         page has no toggle to offer the choice with. The palette is
+         contrast-checked, not eyeballed — body text clears WCAG AAA (7:1),
+         muted text and links clear AA (4.5:1) on every surface.
          --------------------------------------------------------------- */
       :root {
-        color-scheme: light dark;
+        color-scheme: light;
 
         --bg: #fbfaf9;
         --surface: #ffffff;
@@ -42,17 +45,6 @@
         --radius: 10px;
         --measure: 46rem;
         --rail: 3.25rem;
-      }
-
-      @media (prefers-color-scheme: dark) {
-        :root {
-          --bg: #14110f;
-          --surface: #1c1917;
-          --ink: #f0ebe7;
-          --muted: #a9a09a;
-          --accent: #ff6b5a;
-          --border: #3d3630;
-        }
       }
 
       /* --------------------------------------------------------------- */
