@@ -2,9 +2,12 @@
 layout: default
 ---
 
-<div class="intro">
-  {{ content }}
-</div>
+{% assign intro = content | strip %}
+{% if intro != "" %}
+  <div class="intro">
+    {{ content }}
+  </div>
+{% endif %}
 
 {% if site.data.apps and site.data.apps.size > 0 %}
 <section id="apps">
