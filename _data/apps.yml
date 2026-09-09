@@ -7,3 +7,11 @@
     A world map of YouTube's music charts, shaded by how much of each country's
     chart is its own. Pick a country to see what is trending there, then pick a
     song and watch every other country it is charting in light up.
+
+- name: Hip Hop Lineage
+  url: https://mchrestkha.github.io/hiphophistory/
+  tagline: "44 cities, 300 names, one shared lineage."
+  description: >-
+    One scroll, oldest to newest. Every stop is a city where a scene caught
+    fire — what it sounded like, why it mattered, and who to hear. It starts in
+    a Bronx rec room in 1973 and ends up in Lagos, Seoul and Mumbai.
