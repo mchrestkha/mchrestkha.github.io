@@ -18,11 +18,6 @@ social_links:
   - name: Medium
     url: https://medium.com/@mchrestkha
 
-footer_note: >-
-  Started after reading Rachel Thomas's
-  <a href="https://medium.com/@racheltho/why-you-yes-you-should-blog-7d2544ac1045">Why
-  you (yes, you) should blog</a>.
-
 # Both are on the GitHub Pages allowlist. Listing them explicitly means the SEO
 # and sitemap output does not depend on a theme gem's dependencies being
 # auto-loaded — the site carries no theme gem at all.
