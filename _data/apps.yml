@@ -1,17 +1,15 @@
 # Things I have built and put online. Newest first.
 
-- name: volgabeat
+- name: Sound Travels
   url: https://mchrestkha.github.io/volgabeat
   tagline: "Most music never leaves home."
   description: >-
-    A world map of YouTube's music charts, shaded by how much of each country's
-    chart is its own. Pick a country to see what is trending there, then pick a
-    song and watch every other country it is charting in light up.
+    Hear what every country is really listening to right now, find the local hits
+    that never leave home, and see which few songs the whole world shares.
 
 - name: Hip Hop Lineage
   url: https://mchrestkha.github.io/hiphophistory/
-  tagline: "44 cities, 300 names, one shared lineage."
+  tagline: "43 cities, 300 names, one shared lineage."
   description: >-
-    One scroll, oldest to newest. Every stop is a city where a scene caught
-    fire — what it sounded like, why it mattered, and who to hear. It starts in
-    a Bronx rec room in 1973 and ends up in Lagos, Seoul and Mumbai.
+    Follow hip hop from a Bronx rec room in 1973 to Lagos, Seoul and Mumbai,
+    and come away knowing where each sound came from and who to listen to next.
