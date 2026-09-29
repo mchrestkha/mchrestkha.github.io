@@ -20,7 +20,5 @@ side_projects: "Two maps of the world's music: what's playing right now, and whe
 colophon: "The training log up top is drawn from the lists on this page every time the site builds."
 ---
 
-I've spent my career on the data side of things, and these days I help teams
-take AI from prototype to production (ideally without over-engineering it).
-After hours you'll find me on a run, watching a game, or mapping the world's
-music.
+By day I help enterprise developers go from prototype to production. At night
+I play at the intersection of data, music, and apps.
