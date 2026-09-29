@@ -72,11 +72,13 @@ thing can be rendered locally first.
 
 ## Analytics
 
-None. The old Universal Analytics property stopped collecting when UA shut down
-in July 2023, so the dead snippet was removed rather than left in looking like it
-worked. To add GA4: put the `G-` id in `_config.yml` as `google_analytics` and add
-the `gtag.js` snippet to `_layouts/default.html` — the old UA snippet does not
-work with a `G-` id.
+Google Analytics 4, measurement ID `G-FEVFDVT16F`, set as `google_analytics` in
+`_config.yml`. `_layouts/default.html` adds the `gtag.js` snippet only in a
+production build, which is what GitHub Pages runs, so `jekyll serve` previews
+send nothing. The same property also collects from the
+[Hip Hop Lineage](https://mchrestkha.github.io/hiphoplineage/) and
+[Sound Travels](https://mchrestkha.github.io/soundtravels/) projects under this
+domain; filter reports by page path to separate them.
 
 ## Credit
 
