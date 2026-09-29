@@ -1,7 +1,15 @@
 # Things I have built and put online. Newest first.
+#
+# `released` is the day the first version went live (each app's own change log
+# has it). It puts the app in the training log at the top of the page and
+# prints as its release date. `cover` names the app's mark in
+# _includes/covers/ — the same SVG as the app's own tab icon, so the sleeve here
+# and the tab over there match.
 
 - name: Sound Travels
   url: https://mchrestkha.github.io/soundtravels/
+  released: 2026-08-30
+  cover: soundtravels.svg
   tagline: "Most music never leaves home."
   description: >-
     Hear what every country is really listening to right now, find the local hits
@@ -9,6 +17,8 @@
 
 - name: Hip Hop Lineage
   url: https://mchrestkha.github.io/hiphoplineage/
+  released: 2026-08-30
+  cover: hiphoplineage.svg
   tagline: "43 cities, 300 names, one shared lineage."
   description: >-
     Follow hip hop from a Bronx rec room in 1973 to Lagos, Seoul and Mumbai,
