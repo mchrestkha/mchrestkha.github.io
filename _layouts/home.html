@@ -1,51 +1,207 @@
 ---
 layout: default
 ---
+{%- comment -%}
+  Everything counted or drawn on this page comes from _data/entries.yml and
+  _data/apps.yml at build time. Nothing here is typed in by hand: add an entry
+  and the stat line, the training log and the list all move with it.
 
-{% assign intro = content | strip %}
-{% if intro != "" %}
-  <div class="intro">
-    {{ content }}
+  Written for the Liquid that GitHub Pages runs (Jekyll 3.10, Liquid 4.0), so
+  no `find` filter: `where` + `first` does the same job.
+{%- endcomment -%}
+
+{%- assign entries = site.data.entries -%}
+{%- assign apps = site.data.apps -%}
+{%- assign talks = entries | where: "kind", "talk" -%}
+{%- assign posts = entries | where: "kind", "post" -%}
+{%- assign companies = entries | map: "with" | compact | join: "|" | split: "|" | uniq -%}
+
+{%- comment -%} The training log spans the first talk or post to this month. {%- endcomment -%}
+{%- assign logged = entries | where_exp: "e", "e.kind != 'project'" | sort: "date" -%}
+{%- assign oldest = logged | first -%}
+{%- assign newest = logged | last -%}
+{%- assign y0 = oldest.date | date: "%Y" | plus: 0 -%}
+{%- assign y1 = newest.date | date: "%Y" | plus: 0 -%}
+{%- assign now_y = site.time | date: "%Y" | plus: 0 -%}
+{%- assign now_m = site.time | date: "%-m" | plus: 0 -%}
+{%- if now_y > y1 %}{% assign y1 = now_y %}{% endif -%}
+{%- assign entry_months = logged | group_by_exp: "e", "e.date | date: '%Y-%m'" -%}
+{%- assign app_months = apps | group_by_exp: "a", "a.released | date: '%Y-%m'" -%}
+{%- assign month_names = "January,February,March,April,May,June,July,August,September,October,November,December" | split: "," -%}
+
+<header class="stage">
+  <div class="wrap stage-inner">
+    <div class="who">
+      <div class="id">
+        <div class="vinyl">
+          <picture>
+            <source srcset="{{ '/images/avatar.webp' | relative_url }}" type="image/webp">
+            <img src="{{ '/images/avatar.png' | relative_url }}" width="72" height="72" alt="{{ site.title }}">
+          </picture>
+        </div>
+        <div>
+          <h1 class="name">{% assign words = site.title | split: " " %}{% for w in words %}<span>{{ w }}</span>{% unless forloop.last %} {% endunless %}{% endfor %}</h1>
+          <p class="role">{{ site.tagline }}</p>
+        </div>
+      </div>
+
+      {%- assign intro = content | strip -%}
+      {%- if intro != "" %}
+      <div class="lede">{{ content }}</div>
+      {%- endif %}
+
+      {%- if page.rotation %}
+      <div class="rotation">
+        <span class="kicker" id="rotation">In rotation</span>
+        <ul aria-labelledby="rotation">
+          {%- for thing in page.rotation %}
+          <li>{{ thing }}</li>
+          {%- endfor %}
+        </ul>
+      </div>
+      {%- endif %}
+
+      <nav class="social" aria-label="Elsewhere">
+        {%- for link in site.social_links %}
+        <a href="{{ link.url }}" rel="me">{{ link.name }}</a>
+        {%- endfor %}
+      </nav>
+    </div>
+
+    <figure class="log">
+      <figcaption>
+        <span class="kicker">Training log</span>
+        <span class="log-title" id="log-title">Every talk, post and app, by month</span>
+        <ul class="legend">
+          <li><i class="dot talk" aria-hidden="true"></i>Talk</li>
+          <li><i class="dot post" aria-hidden="true"></i>Post</li>
+          <li><i class="dot app" aria-hidden="true"></i>App</li>
+        </ul>
+      </figcaption>
+      <table class="grid" aria-labelledby="log-title">
+        <thead>
+          <tr>
+            <th scope="col"><span class="sr-only">Year</span></th>
+            {%- for name in month_names %}
+            <th scope="col" abbr="{{ name }}">{{ name | slice: 0 }}</th>
+            {%- endfor %}
+          </tr>
+        </thead>
+        <tbody>
+          {%- for y in (y0..y1) reversed %}
+          <tr>
+            <th scope="row">{{ y }}</th>
+            {%- for m in (1..12) -%}
+              {%- capture ym -%}{{ y }}-{% if m < 10 %}0{% endif %}{{ m }}{%- endcapture -%}
+              {%- assign in_month = entry_months | where: "name", ym | first -%}
+              {%- assign shipped = app_months | where: "name", ym | first -%}
+              {%- assign t = y | minus: y0 | times: 12 | plus: m -%}
+              {%- assign state = "" -%}
+              {%- if y > now_y -%}
+                {%- assign state = "later" -%}
+              {%- elsif y == now_y -%}
+                {%- if m > now_m %}{% assign state = "later" %}{% elsif m == now_m %}{% assign state = "now" %}{% endif -%}
+              {%- endif %}
+            <td{% if state != "" %} class="{{ state }}"{% endif %}>
+              {%- if in_month or shipped -%}
+              <span>
+                {%- for e in in_month.items -%}
+                <a class="mark {{ e.kind }}" href="#{{ e.date | date: '%Y-%m-%d' }}-{{ e.title | truncatewords: 4, '' | slugify }}" style="--t: {{ t }}"><span class="tip"><b>{{ e.date | date: "%b %Y" }} · {{ e.kind | capitalize }}</b> {{ e.title }}</span></a>
+                {%- endfor -%}
+                {%- for a in shipped.items -%}
+                <a class="mark app" href="#app-{{ a.name | slugify }}" style="--t: {{ t }}"><span class="tip"><b>{{ a.released | date: "%b %Y" }} · App</b> {{ a.name }}</span></a>
+                {%- endfor -%}
+              </span>
+              {%- endif -%}
+            </td>
+            {%- endfor %}
+          </tr>
+          {%- endfor %}
+        </tbody>
+      </table>
+    </figure>
+
+    <dl class="stats">
+      <div class="stat"><dt><i class="dot talk" aria-hidden="true"></i>Talks</dt><dd>{{ talks.size }}</dd></div>
+      <div class="stat"><dt><i class="dot post" aria-hidden="true"></i>Posts</dt><dd>{{ posts.size }}</dd></div>
+      <div class="stat"><dt><i class="dot app" aria-hidden="true"></i>Apps shipped</dt><dd>{{ apps.size }}</dd></div>
+      <div class="stat"><dt>Companies on stage with me</dt><dd>{{ companies.size }}</dd></div>
+    </dl>
   </div>
-{% endif %}
+</header>
 
-{% if site.data.apps and site.data.apps.size > 0 %}
-<section id="apps">
-  <h2>My apps</h2>
-  <div class="apps">
-    {% for app in site.data.apps %}
-      <article class="app">
-        <h3><a href="{{ app.url }}">{{ app.name }}</a></h3>
-        {% if app.tagline %}<p class="tagline">{{ app.tagline }}</p>{% endif %}
-        <p>{{ app.description }}</p>
+<main id="content" class="wrap">
+  {%- if apps and apps.size > 0 %}
+  <section id="side-projects">
+    <header class="section-head">
+      <span class="kicker">B-sides</span>
+      <h2>Side projects</h2>
+      {%- if page.side_projects %}
+      <p class="dek">{{ page.side_projects }}</p>
+      {%- endif %}
+    </header>
+    <div class="releases">
+      {%- for app in apps %}
+      <article class="release" id="app-{{ app.name | slugify }}">
+        {%- if app.cover %}
+        <a class="sleeve" href="{{ app.url }}" tabindex="-1" aria-hidden="true">{% include covers/{{ app.cover }} %}</a>
+        {%- endif %}
+        <div>
+          <h3><a href="{{ app.url }}">{{ app.name }}</a></h3>
+          {%- if app.tagline %}
+          <p class="tagline">{{ app.tagline }}</p>
+          {%- endif %}
+          <p class="desc">{{ app.description }}</p>
+          {%- if app.released %}
+          <p class="meta"><i class="dot app" aria-hidden="true"></i>Released <time datetime="{{ app.released | date: '%Y-%m-%d' }}">{{ app.released | date: "%b %-d, %Y" }}</time></p>
+          {%- endif %}
+        </div>
       </article>
-    {% endfor %}
-  </div>
-</section>
-{% endif %}
+      {%- endfor %}
+    </div>
+  </section>
+  {%- endif %}
 
-<section id="talks">
-  <h2>Talks &amp; writing</h2>
-  {% assign groups = site.data.entries | group_by_exp: "e", "e.date | date: '%Y'" | sort: "name" | reverse %}
-  {% for group in groups %}
+  <section id="talks" class="record">
+    <header class="section-head">
+      <span class="kicker">On the record</span>
+      <h2>Talks &amp; writing</h2>
+      <p class="dek">{{ talks.size }} talks and {{ posts.size }} posts since {{ y0 }}{% if companies.size > 0 %}, on stage with {% include and-list.html items=companies %}{% endif %}.</p>
+    </header>
+
+    <fieldset class="filter">
+      <legend class="sr-only">Show</legend>
+      <input type="radio" name="show" id="show-all" checked>
+      <label for="show-all">All <span class="n">{{ entries.size }}</span></label>
+      <input type="radio" name="show" id="show-talk">
+      <label for="show-talk"><i class="dot talk" aria-hidden="true"></i>Talks <span class="n">{{ talks.size }}</span></label>
+      <input type="radio" name="show" id="show-post">
+      <label for="show-post"><i class="dot post" aria-hidden="true"></i>Posts <span class="n">{{ posts.size }}</span></label>
+    </fieldset>
+
+    {%- assign years = entries | group_by_exp: "e", "e.date | date: '%Y'" | sort: "name" | reverse %}
+    {%- for year in years %}
     <div class="year">
-      <h3>{{ group.name }}</h3>
+      <h3>{{ year.name }}</h3>
       <ul class="entries">
-        {% for entry in group.items %}
-          <li class="entry">
-            <time datetime="{{ entry.date | date: '%Y-%m-%d' }}">{{ entry.date | date: '%b %-d' }}</time>
-            <div>
-              <p class="entry-title">{{ entry.title }}</p>
-              {% if entry.note %}<p class="entry-note">{{ entry.note }}</p>{% endif %}
-              <div class="entry-links">
-                {% for link in entry.links %}
-                  <a href="{{ link.url | relative_url }}">{{ link.label }}</a>
-                {% endfor %}
-              </div>
-            </div>
-          </li>
-        {% endfor %}
+        {%- for e in year.items %}
+        <li class="entry {{ e.kind }}" id="{{ e.date | date: '%Y-%m-%d' }}-{{ e.title | truncatewords: 4, '' | slugify }}">
+          <div class="when"><i class="dot {{ e.kind }}" aria-hidden="true"></i><time datetime="{{ e.date | date: '%Y-%m-%d' }}">{{ e.date | date: "%b %-d" }}</time><span class="sr-only">, {{ e.kind }}</span></div>
+          <div>
+            <p class="entry-title">{{ e.title }}</p>
+            {%- if e.note or e.with %}
+            <p class="entry-note">{{ e.note }}{% if e.note and e.with %} · {% endif %}{% if e.with %}with {% include and-list.html items=e.with %}{% endif %}</p>
+            {%- endif %}
+            <p class="entry-links">
+              {%- for link in e.links %}
+              <a href="{{ link.url | relative_url }}">{{ link.label }}</a>
+              {%- endfor %}
+            </p>
+          </div>
+        </li>
+        {%- endfor %}
       </ul>
     </div>
-  {% endfor %}
-</section>
+    {%- endfor %}
+  </section>
+</main>
