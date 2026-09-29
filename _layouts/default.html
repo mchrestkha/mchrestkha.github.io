@@ -19,7 +19,7 @@
     <link rel="preload" href="{{ '/assets/fonts/archivo.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
     <style>
       /* ---------------------------------------------------------------
-         Archivo, self-hosted, for headings and figures only. Subset to
+         Archivo, self-hosted, for headings only. Subset to
          Basic Latin and pinned to one width (112, semi-expanded) with
          weight left variable from 700 to 900: 11.8 KB, down from 90 KB for
          the full family. It is the face Sound Travels and Hip Hop Lineage
@@ -137,7 +137,7 @@
       }
 
       a { color: var(--accent); }
-      a:focus-visible, input:focus-visible + label {
+      a:focus-visible {
         outline: 2px solid var(--accent);
         outline-offset: 3px;
         border-radius: 2px;
@@ -210,14 +210,12 @@
       }
       .stage .kicker { color: var(--stage-accent); }
       .stage a { color: var(--stage-ink); }
-      .stage a:focus-visible, .stage input:focus-visible + label { outline-color: var(--stage-accent); }
+      .stage a:focus-visible { outline-color: var(--stage-accent); }
 
       .stage-inner {
         display: grid;
         grid-template-columns: minmax(0, 1fr) auto;
-        grid-template-areas:
-          "who   log"
-          "stats stats";
+        grid-template-areas: "who log";
         gap: var(--space-6) var(--space-7);
         padding-block: var(--space-7) var(--space-6);
       }
@@ -467,35 +465,6 @@
       .grid td:nth-child(-n+4) .tip { left: 0; transform: none; }
       .grid td:nth-child(n+11) .tip { left: auto; right: 0; transform: none; }
 
-      /* --- the stat line ---------------------------------------------- */
-
-      .stats {
-        grid-area: stats;
-        display: grid;
-        grid-template-columns: repeat(4, minmax(0, 1fr));
-        gap: var(--space-4);
-        margin: 0;
-        padding-top: var(--space-5);
-        border-top: 1px solid var(--stage-line);
-      }
-      .stat { display: flex; flex-direction: column-reverse; }
-      .stat dd {
-        margin: 0;
-        font-family: var(--display);
-        font-weight: 800;
-        font-size: clamp(2rem, 1.5rem + 1.6vw, 2.75rem);
-        line-height: 1;
-        color: var(--stage-ink);
-      }
-      .stat dt {
-        display: flex;
-        align-items: center;
-        gap: var(--space-2);
-        margin-top: var(--space-2);
-        font-size: var(--step--1);
-        color: var(--stage-muted);
-      }
-
       /* --- sections on the page --------------------------------------- */
 
       main { padding-top: var(--space-7); }
@@ -516,6 +485,8 @@
         margin: var(--space-2) 0 0;
         color: var(--muted);
       }
+      /* A kind's mark set in running text doubles as the list's legend. */
+      .dek .dot { margin-right: 0.4em; vertical-align: 0.02em; }
 
       /* --- side projects: record sleeves ------------------------------ */
 
@@ -573,42 +544,6 @@
       }
 
       /* --- talks & writing -------------------------------------------- */
-
-      .filter {
-        position: relative;
-        display: flex;
-        flex-wrap: wrap;
-        gap: var(--space-2);
-        margin: 0 0 var(--space-5);
-        padding: 0;
-        border: 0;
-      }
-      .filter input { position: absolute; opacity: 0; pointer-events: none; }
-      .filter label {
-        display: inline-flex;
-        align-items: center;
-        gap: var(--space-2);
-        padding: var(--space-1) var(--space-3);
-        border: 1px solid var(--border);
-        border-radius: 999px;
-        background: var(--surface);
-        font-size: var(--step--1);
-        cursor: pointer;
-        user-select: none;
-      }
-      .filter label:hover { border-color: var(--muted); }
-      .filter .n { font-family: var(--mono); color: var(--muted); }
-      .filter input:checked + label {
-        background: var(--ink);
-        border-color: var(--ink);
-        color: var(--bg);
-      }
-      .filter input:checked + label .n { color: var(--border); }
-
-      .record:has(#show-talk:checked) .entry:not(.talk),
-      .record:has(#show-post:checked) .entry:not(.post),
-      .record:has(#show-talk:checked) .year:not(:has(.entry.talk)),
-      .record:has(#show-post:checked) .year:not(:has(.entry.post)) { display: none; }
 
       .year {
         display: grid;
@@ -687,7 +622,7 @@
         :root { --cell: 1.5rem; }
         .stage-inner {
           grid-template-columns: minmax(0, 1fr);
-          grid-template-areas: "who" "stats" "log";
+          grid-template-areas: "who" "log";
           gap: var(--space-6);
           padding-block: var(--space-6);
         }
@@ -708,7 +643,6 @@
         .rotation .kicker { flex-basis: 100%; margin-bottom: var(--space-1); }
         .vinyl { width: 5.5rem; height: 5.5rem; }
         .vinyl img { width: 3.5rem; height: 3.5rem; }
-        .stats { grid-template-columns: repeat(2, minmax(0, 1fr)); row-gap: var(--space-5); }
         .grid { border-spacing: 3px; margin-inline: -3px; }
         .log { position: relative; }
         .grid td { position: static; }
@@ -735,7 +669,7 @@
     {{ content }}
 
     <footer class="wrap">
-      {% if page.colophon %}<p>{{ page.colophon }}</p>{% endif %}
+      {% if page.colophon %}<p>{{ page.colophon | smartify }}</p>{% endif %}
       <p>&copy; {{ site.time | date: '%Y' }} {{ site.title }}.</p>
     </footer>
   </body>

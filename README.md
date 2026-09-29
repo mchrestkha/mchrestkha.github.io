@@ -7,8 +7,8 @@ served by GitHub Pages.
 ## Adding something
 
 Both lists are data, not markup. Nothing below needs HTML or CSS, and nothing
-on the page is counted by hand: the stat line, the training log and the list
-all move with the data.
+on the page is drawn by hand: the training log and the list both move with the
+data.
 
 **A talk, post or session** goes at the top of [`_data/entries.yml`](_data/entries.yml):
 
@@ -27,10 +27,10 @@ all move with the data.
 
 `date` drives the displayed date, the year heading and the entry's square in
 the training log, so the page stays sorted and grouped by construction — there
-is no year heading to add by hand. `kind` sets the entry's colour and shape and
-which count it adds to; a `project` is listed but kept out of the log. Each
-company in `with` is joined into "with A, B & C" under the title and counted
-once in "Companies on stage with me".
+is no year heading to add by hand. `kind` sets the entry's colour and shape; a
+`project` is listed but kept out of the log. Each company in `with` is joined
+into "with A, B & C" under the title, and named once in the line under the
+Talks & writing heading.
 
 **An app** goes in [`_data/apps.yml`](_data/apps.yml), same idea: `name`, `url`,
 an optional one-line `tagline`, a `description`, `released` (the day the first
@@ -69,8 +69,8 @@ stylesheet costs a round trip and saves nothing.
 ## The design
 
 The page opens on **the stage**, one dark band whose ground is the page's own
-ink: the name, the intro, the five things in rotation, the training log and
-the stat line. Everything below it is the light page. It is a fixed part of
+ink: the name, the intro, the five things in rotation and the training log.
+Everything below it is the light page. It is a fixed part of
 the design, not a dark mode — everyone sees the same page.
 
 **The training log** is one square per month, the way a running log or a
@@ -83,7 +83,8 @@ chart. On load the marks light up in the order they happened, unless the
 reader has asked for reduced motion.
 
 **Colour is measured, not eyeballed.** Colour, type and space are tokens at
-the top of the `<style>` block, and nothing below it invents a value. Text
+the top of the `<style>` block, and nothing below it invents a value (the few
+translucent tints are those colours at low opacity). Text
 clears WCAG AA (4.5:1) everywhere and body copy clears AAA (7:1), on every
 surface it sits on. The three mark colours — talk, post, app — take their hues
 from the two apps (Sound Travels' red and gold, Hip Hop Lineage's A-train
@@ -92,16 +93,16 @@ validated as a categorical palette over all pairs: lightness band, chroma,
 colour-blind separation (worst protan/deutan ΔE 12.7 on the page, 9.9 on the
 stage, against a target of 8), normal-vision separation, and 3:1 contrast
 against its surface. Colour is never the only cue either: talks are circles,
-posts are squares, apps are ▶.
+posts are squares, apps are ▶. The list's markers are keyed in the line under
+its heading, which names both kinds with their marks.
 
-**Type.** Body text is the system font. Headings and figures are Archivo — the
+**Type.** Body text is the system font. Headings are Archivo — the
 face Sound Travels and Hip Hop Lineage set their titles in, so the three read
 as one body of work — self-hosted, subset to Basic Latin and pinned to a single
 width with only weight left variable: 11.8 KB, down from 90 KB for the family.
 
-**No JavaScript** beyond analytics. The tooltips and the Talks/Posts filter are
-CSS: the filter is three radio buttons and `:has()`, and a browser without
-`:has()` simply shows everything.
+**No JavaScript** beyond analytics. The training log's tooltips are CSS, and
+on a touch screen a tap on a month simply jumps to its entry.
 
 **Images are most of the performance budget**, so they are sized for where they
 are displayed: the avatar is served at 144px for a 72px slot (WebP, ~4 KB)
@@ -110,8 +111,8 @@ rather than at its original 837px (699 KB). A first visit downloads about
 you add a screenshot, resize it first.
 
 **The link-preview card** (`images/og.png`, 1200 × 630) is a screenshot of the
-stage, rendered from the built page, reduced to 256 colours (39 KB). Its
-numbers are a picture, so retake it when the stat line changes.
+stage, rendered from the built page, reduced to 256 colours (39 KB). The log
+in it is a picture, so retake it now and then as the real one fills in.
 
 ## Local preview
 

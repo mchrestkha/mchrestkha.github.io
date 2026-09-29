@@ -1,8 +1,9 @@
 {%- comment -%}
   Joins include.items as "A", "A & B" or "A, B & C" — the house style the
   notes were written in. Items are escaped; "Weights & Biases" is one item.
+  The joining "&" is held to its neighbours so a line never ends on it.
 {%- endcomment -%}
 {%- for item in include.items -%}
-  {%- if forloop.last and forloop.length > 1 %} &amp; {% elsif forloop.index > 1 %}, {% endif -%}
+  {%- if forloop.last and forloop.length > 1 %}&nbsp;&amp;&nbsp;{% elsif forloop.index > 1 %}, {% endif -%}
   {{- item | escape -}}
 {%- endfor -%}

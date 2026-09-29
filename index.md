@@ -14,11 +14,13 @@ image:
 rotation: [Data, Music, AI, Running, Sports]
 
 # One line under the Side projects heading.
-side_projects: "Two maps of the world's music: what's playing now, and where it came from."
+side_projects: "Two maps of the world's music: what's playing right now, and where it all came from."
 
 # A line above the copyright in the footer.
-colophon: "The numbers and the training log up top are counted from the lists on this page every time the site builds."
+colophon: "The training log up top is drawn from the lists on this page every time the site builds."
 ---
 
-By day I work on getting AI from prototype to production, and I talk and
-write about how it's done. After hours, I map the world's music.
+I've spent my career on the data side of things, and these days I help teams
+take AI from prototype to production (ideally without over-engineering it).
+After hours you'll find me on a run, watching a game, or mapping the world's
+music.
