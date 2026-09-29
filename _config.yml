@@ -25,12 +25,11 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
 
-# Analytics: the previous UA- property stopped collecting data when Universal
-# Analytics shut down in July 2023, so the snippet was removed rather than left
-# in place looking like it worked. To add GA4, put the G- id here and add the
-# gtag.js snippet to _layouts/default.html — the UA snippet does not work with
-# a G- id.
-# google_analytics:
+# Google Analytics 4. The same property also covers /hiphoplineage/ and
+# /soundtravels/, which are served under this domain. _layouts/default.html
+# loads gtag.js only in a production build (GitHub Pages builds as production;
+# `jekyll serve` does not), so local previews send nothing. Remove to turn off.
+google_analytics: G-FEVFDVT16F
 
 exclude:
   - README.md
