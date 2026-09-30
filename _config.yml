@@ -18,6 +18,8 @@ social_links:
     url: https://github.com/mchrestkha
   - name: Medium
     url: https://medium.com/@mchrestkha
+  - name: Instagram
+    url: https://www.instagram.com/mikogptsidequests/
 
 # Both are on the GitHub Pages allowlist. Listing them explicitly means the SEO
 # and sitemap output does not depend on a theme gem's dependencies being
