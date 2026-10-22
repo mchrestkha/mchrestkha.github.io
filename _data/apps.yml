@@ -6,6 +6,15 @@
 # _includes/covers/ — the same SVG as the app's own tab icon, so the sleeve here
 # and the tab over there match.
 
+- name: Tara
+  url: https://taraletseat.com/
+  released: 2026-10-11
+  cover: tara.svg
+  tagline: "Let's go meet over some good food."
+  description: >-
+    Keep track of every place you've eaten and every place you want to try, see
+    your friends' lists, and swipe with your crew until everyone agrees on where to eat.
+
 - name: Sound Travels
   url: https://mchrestkha.github.io/soundtravels/
   released: 2026-08-30

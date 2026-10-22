@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 82 82" role="img" aria-label="Tara">
+  <rect width="82" height="82" rx="16" fill="#F9E27D" />
+  <g transform="translate(41 41) scale(1.68) translate(-11 -12)" fill="none" stroke="#1D1B16" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M8 3v18M5 3v5a3 3 0 0 0 6 0V3M17 21v-8" />
+    <ellipse cx="17" cy="7" rx="3" ry="4.5" />
+  </g>
+</svg>
