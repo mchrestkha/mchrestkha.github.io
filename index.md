@@ -14,7 +14,7 @@ image:
 rotation: [Data, Music, AI, Running, Sports]
 
 # One line under the Side projects heading.
-side_projects: "Two maps of the world's music, and an app for deciding where to eat with friends."
+side_projects: "Apps I build after hours, for the music I love and the meals I share with friends."
 
 # A line above the copyright in the footer.
 colophon: "The training log up top is drawn from the lists on this page every time the site builds."
