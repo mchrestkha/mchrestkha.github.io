@@ -14,7 +14,7 @@ image:
 rotation: [Data, Music, AI, Running, Sports]
 
 # One line under the Side projects heading.
-side_projects: "Projects I work on after hours"
+side_projects: "Projects I work on after hours."
 
 # A line above the copyright in the footer.
 colophon: "The training log up top is drawn from the lists on this page every time the site builds."
